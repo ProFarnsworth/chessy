@@ -1,0 +1,29 @@
+variable "do_token" {
+  type    = string
+  default = "<TOKEN>"
+}
+
+variable "PASSWORD" {
+  type    = string
+  default = "<PASSWORD>"
+}
+
+variable "pub_key" {
+  type    = string
+  default = "~/.ssh/id_rsa.pub" 
+}
+
+variable "pvt_key" {
+  type    = string
+  default = "~/.ssh/id_rsa" 
+}
+
+variable "digikeys" {
+  type    = list(string)
+  default = ["23618999", "24964640"] 
+}
+
+
+terraform {
+  required_version = ">= 0.12"
+}

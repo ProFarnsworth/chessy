@@ -1,0 +1,7 @@
+source.sh
+50_main_ansible.retry
+00_vars.tf
+.terraform/*
+terraform.tfstate
+terraform.tfstate.backup
+00_vars.pw
